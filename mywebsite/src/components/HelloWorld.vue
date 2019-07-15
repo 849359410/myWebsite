@@ -1,9 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <p>
-	    Welcome！my name is {{ MyName }}
-    </p>
+    <p>Welcome！my name is {{ MyName }}</p>
   </div>
 </template>
 
@@ -11,8 +9,8 @@
 export default {
   name: 'HelloWorld',
 	data() {
-  	return {
-  		MyName: 'brucezhou'
+    return {
+      MyName: 'brucezhou'
 	  }
 	},
   props: {
