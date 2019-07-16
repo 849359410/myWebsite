@@ -78,8 +78,8 @@ a {
       width: 30%;
       margin: 10px auto;
       .iconBox {
-        width: 40px;
-        height: 40px;
+        width: 2.5rem;
+        height: 2.5rem;
         border-radius: 20px;
         border: 1px solid rgba(9, 92, 49, .5);
         margin: 5px auto;
