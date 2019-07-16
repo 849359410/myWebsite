@@ -42,10 +42,10 @@ export default {
     return {
       show: false,
       accounts: [
-        {class: 'icon-GitHub', link: 'https://github.com/lyttonlee'},
-        {class: 'icon-sf', link: 'https://segmentfault.com/u/siwuweihesi'},
-        {class: 'icon-zhihu', link: 'https://www.zhihu.com/people/li-zai-rong-27/activities'},
-        {class: 'icon-xinlang', link: 'https://weibo.com/1803573600/profile?topnav=1&wvr=6&is_all=1'}
+        {class: 'icon-GitHub', link: 'https://github.com/849359410'},
+        {class: 'icon-sf', link: 'javascript:;'},
+        {class: 'icon-zhihu', link: 'javascript:;'},
+        {class: 'icon-xinlang', link: 'javascript:;'}
       ]
     }
   },
