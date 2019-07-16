@@ -24,7 +24,7 @@
         <div class="acount">
           <el-row>
             <template v-for="item in accounts">
-              <el-col :span="6" :key="item.class">
+              <el-col :span="6" :key="item.class" style="width: 25%">
                 <div class="iconBox">
                   <a :href="item.link"><i class="iconfont iconSet" :class="item.class"></i></a>
                 </div>
@@ -79,7 +79,6 @@ a {
       margin: 10px auto;
       .iconBox {
         width: 2.5rem;
-        height: 2.5rem;
         border-radius: 20px;
         border: 1px solid rgba(9, 92, 49, .5);
         margin: 5px auto;
