@@ -24,7 +24,7 @@
         <div class="acount">
           <el-row>
             <template v-for="item in accounts">
-              <el-col :span="6" :key="item.class" style="width: 25%">
+              <el-col :span="6" :key="item.class">
                 <div class="iconBox">
                   <a :href="item.link"><i class="iconfont iconSet" :class="item.class"></i></a>
                 </div>
@@ -99,5 +99,10 @@ a {
       }
     }
   }
+}
+@media screen and (max-width: 450px) {
+	.acount {
+		width: 100% !important;
+	}
 }
 </style>
