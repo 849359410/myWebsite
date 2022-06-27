@@ -1,6 +1,6 @@
 <template>
   <div class="info">
-    <h1>基本资料/周华</h1>
+    <h1>基本资料/周华1</h1>
     <transition
       :duration="{ enter: 2500, leave: 1500 }"
       enter-active-class="animated fadeInUp">
